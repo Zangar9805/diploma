@@ -58,3 +58,83 @@ a {
 	font-size: 15pt;
 	font-weight: 100;
 }
+
+
+/*
+------------  content   --------------
+*/
+
+.content {
+	width: 100%;
+	color: black;
+}
+
+.products {
+	padding: 15px;
+}
+
+.product {
+	display: flex;
+	width: 100%;
+}
+
+.product_logo {
+	width: 25%;
+	padding: 15px 0;
+}
+
+.product_top {
+	width: 100%;
+	display: flex;
+	flex-grow: 1;
+	color: white;
+}
+
+.product_name {
+	display: flex;
+	flex-grow: 2;
+	padding: 10px;
+	background: blue;
+	margin-right: 20px;
+	font-size: 20pt;
+}
+
+.product_price {
+	padding: 10px 20px;
+	background: blue;
+	font-size: 20pt;
+}
+
+.product_desc {
+	background-color: pink;
+	margin: 15px 0;
+	padding: 10px 15px;
+	font-size: 16pt;
+	color: blue;
+	text-align: justify;
+}
+
+.product_add {
+	display: flex;
+	margin-top: 25px;
+	justify-content: space-between;
+}
+
+.product_basket p {
+	float: left;
+	display: block;
+	margin-right: 10px;
+}
+
+.product_basket input {
+	transform: scale(1.5);
+}
+
+.product_piece p {
+	float: right;
+	margin-left: 10px;
+}
+
+.product_piece input {
+	font-size: 16pt;
+}
